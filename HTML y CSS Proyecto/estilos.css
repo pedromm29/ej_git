@@ -1,0 +1,76 @@
+/* estilos.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    background-color: #2E7D32;
+    color: white;
+    padding: 1em;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.carousel-container {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #2E7D32;
+    color: white;
+}
+button {
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1B5E20;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.carousel-item {
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 400px;
+}
